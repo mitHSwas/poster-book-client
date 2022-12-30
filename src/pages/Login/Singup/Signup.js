@@ -75,7 +75,7 @@ const Signup = () => {
                         <p className='mt-3'>Already have an account? please <Link className='text-orange-500' to="/login">Login</Link></p>
                         <div className="divider">Or Continue With</div>
                     </div>
-                    <div className='mx-auto'><button onClick={handleFbLogin} className='btn btn-warning'>Google</button></div>
+                    <div className='mx-auto'><button onClick={handleFbLogin} className='btn btn-warning'>Facebook</button></div>
                 </form>
             </div>
         </div>
