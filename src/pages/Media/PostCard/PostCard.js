@@ -10,6 +10,9 @@ const PostCard = (props) => {
                 <h2 className="card-title">Post:</h2>
                 <p>{post}</p>
                 <div className="card-actions justify-end">
+                    <button className='btn btn-warning' onClick={() => this.setState({ liked: true })}>
+                        Like
+                    </button>
                     <Link to={`/postDetails/${_id}`} className="btn btn-active btn-ghost">Comments</Link>
                     <Link to={`/postDetails/${_id}`} className="btn btn-primary">Details</Link>
                 </div>
